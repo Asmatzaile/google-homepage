@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<style>
+    :root {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #202020;
+    }
+    .center {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+    nav {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        display: flex;
+    }
+
+    footer {
+        position: fixed;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+    }
+    img {
+        position: relative;
+        top: 10vw;
+        width: 20%;
+    }
+
+    form {
+        position: relative;
+        top: 12vw;
+    }
+    #buttons {
+        position: relative;
+        top: 20px;
+    }
+    button {
+        margin: 0 10px;
+        padding: 10px;
+        background-color: #F8F9FA;
+        border: none;
+    }
+    #searchbar {
+        width: 300px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline;
+        margin: 0px 5px;
+    }
+    a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+</style>
+
+
+<html>
+    <head>
+        <title>Google</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#">GApps</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+        </div>
+        <form>
+            <label class="center">
+                <input id="searchbar" type="text">
+            </label>
+            <div class="center">
+                <div id="buttons">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
+                </div>
+            </div>
+        </form>
+        <footer>
+            <ul>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How Search Works</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
